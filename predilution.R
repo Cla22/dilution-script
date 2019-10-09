@@ -1,4 +1,3 @@
-print("Welcome to Catalina's culture dilution python script.This script will guide you through the process of diluting a semi-continuous culture. It will also help you to check for logistic growth.")
 
 #Ideas: input Sample names and RFU's
 #Script will output csv of growth rates, logistic growth and png of plot
