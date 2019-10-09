@@ -10,8 +10,7 @@
 
 # TO DO:
 
-# Fix date issues
-# 
+# Fix date issues 
 
 sample_count <- 6
 #Sample names
@@ -34,8 +33,7 @@ setwd("~/Desktop/FC_Global_Proteome/Methods/FC_GP_culture_dilutions/1_deg")
 file_name <- 'FC_GP_dilution_1_180719'
 RFU_data <- read.csv(paste0(file_name, ".csv"), stringsAsFactors = FALSE)
 
-#sample volume >:(
-#Goal: ask and answer
+#sample volume 
 sample_mL <- 3
 
 
@@ -67,7 +65,7 @@ for (i in 1:length(RFU_data$Date)){
   
 }
 
-#Ask if dilution will be done. If yes, fill in dilution done = TRUE
+#Will dilution will be done? If yes, fill in dilution done = TRUE
 
 #Get average of RFU triplicate measurements after dilution (only if it happened) 
 for (i in 1:length(RFU_data$Date)){ #For entire length of table, check if a dilution was done
